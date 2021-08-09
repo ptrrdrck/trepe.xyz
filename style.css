@@ -34,14 +34,13 @@ h1 {
 }
 
 a {
-    display: block;
+    display: inline-block;
     text-decoration: none;
     color: azure;
     background-color: black;
-    width: 200px;
     margin: 20px;
     text-align: center;
-    padding: 4px 2px;
+    padding: 4px 4px;
     border-radius: 2px;
 }
 
