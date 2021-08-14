@@ -63,15 +63,14 @@ a:hover {
 .back {
   display: inline-block;
   position: absolute;
-  top: 25px;
+  top: 35px;
   left:50px;
   margin: 0;
-  padding: 2px;
-  min-width: 10%;
+  padding: 0 3px 0 6px;
 }
 .emoji {
   font-size: 26px;
-  margin: 0 2px;
+  padding: 0 0 0 3px;
 }
 .about {
   line-height: 1.3;
