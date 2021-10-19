@@ -44,6 +44,18 @@ a {
 a:hover {
   font-style: italic
 }
+a.social {
+  display: inline-block;
+  text-decoration: none;
+  color:#000;
+  background: none;
+  margin: 20px 20px 10px 50px;
+  text-align: center;
+  padding: 4px;
+  border: 1px solid black;
+  border-radius: 2px;
+  letter-spacing: 1px;
+}
 .text-gradient {
   background: rgb(0, 153, 255);
   background: -webkit-linear-gradient(120deg,rgb(212, 218, 255) 0,rgb(212,253,255) 100%);
