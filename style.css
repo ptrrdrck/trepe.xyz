@@ -107,13 +107,25 @@ a.button {
   max-width: 358px;
 }
 
+#photo {
+  color: #fff;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  text-align: right;
+  padding: 10px;
+  height: 533px;
+  max-width: 800px;
+  background: url(./img/20210903.jpg);
+  border-radius: 10px;
+  margin: 50px 0px;
+}
+
 #links {
   padding: 20px 20px;
   height: auto;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  position: relative;
   flex-wrap: wrap;
 }
 
