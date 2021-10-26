@@ -78,20 +78,6 @@ a.button {
   -webkit-text-fill-color: transparent;
 }
 
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
-
-.fade-in {
-  animation: 1s fadeIn;
-  opacity: 1;
-}
-
 .emoji {
   font-size: 26px;
   padding: 0 0 0 3px;
@@ -144,4 +130,40 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.fade-in {
+  animation: 1s fadeIn;
+  opacity: 1;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.ellipsis:after {
+  overflow: hidden;
+  display: inline-block;
+  vertical-align: bottom;
+  -webkit-animation: ellipsis steps(4,end) 1200ms infinite;      
+  animation: ellipsis steps(4,end) 1200ms infinite;
+  content: "\2026";
+  width: 0px;
+}
+
+@keyframes ellipsis {
+  to {
+    width: 0.8em;    
+  }
+}
+
+@-webkit-keyframes ellipsis {
+  to {
+    width: 0.8em;    
+  }
 }
