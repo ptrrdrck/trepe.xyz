@@ -18,7 +18,7 @@ body {
   letter-spacing: 1px;
 }
 
-header {
+header, footer {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -83,15 +83,38 @@ a.button {
   padding: 0 0 0 3px;
 }
 
-#about {
-  font-size: 0.96rem;
+#intro {
+  display: flex;
+  flex-wrap: wrap;
   font-family: 'Fira Code', monospace;
+  margin: 50px 0;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  font-size: 0.96rem;
   background-color: #fff;
   padding: 20px;
   border-radius: 10px;
-  margin: 50px 0px;
   word-wrap: break-word;
-  max-width: 358px;
+  min-width: 0;
+}
+
+#col-space {
+  width: 40px;
+}
+
+#left {
+  flex-grow: 2;
+}
+
+#right {
+  flex-grow: 1;
+  align-self: stretch;
 }
 
 #photo {
@@ -108,7 +131,7 @@ a.button {
 }
 
 #links {
-  padding: 20px 20px;
+  padding: 0 20px;
   height: auto;
   display: flex;
   justify-content: space-around;
@@ -124,12 +147,6 @@ a.button {
   line-height: 1.3;
   text-align: justify;
   margin: 50px 0px;
-}
-
-footer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .fade-in {
