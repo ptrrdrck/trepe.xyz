@@ -117,6 +117,38 @@ a.button {
   align-self: stretch;
 }
 
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+@keyframes blink-caret {
+  50% {
+    border-color: transparent;
+  }
+}
+
+@-webkit-keyframes typing {
+  from {
+    width: 0;
+  }
+}
+@-webkit-keyframes blink-caret {
+  50% {
+    border-color: transparent;
+  }
+}
+
+#typing {
+  border-right: 0.08em solid black;
+  width: 16.7em;
+  width: 21.3ch;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: typing 2s steps(19, end), blink-caret 0.5s step-end infinite alternate;
+  -webkit-animation: typing 2s steps(19, end), blink-caret 0.5s step-end infinite alternate;
+}
+
 #photo {
   color: #fff;
   font-size: 0.8rem;
@@ -155,6 +187,15 @@ a.button {
 }
 
 @keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
   from {
     opacity: 0;
   }
