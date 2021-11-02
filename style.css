@@ -121,13 +121,11 @@ a.button {
 .email {
   display: inline-block;
   background: none;
-  color: rgb(47, 158, 233);
+  color: rgb(207, 155, 255);
   font-size: 0.96rem;
   letter-spacing: 1px;
   margin: 0;
   padding: 0;
-  text-decoration: underline;
-  text-underline-position: under;
 }
 
 @keyframes typing {
@@ -216,7 +214,7 @@ a.button {
     opacity: 1;
   }
 }
-
+/*
 .ellipsis:after {
   overflow: hidden;
   display: inline-block;
@@ -238,7 +236,7 @@ a.button {
     width: 0.8em;    
   }
 }
-/*
+
 @import url("//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css");
 
 @font-face {
