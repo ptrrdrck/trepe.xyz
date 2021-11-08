@@ -175,7 +175,6 @@ a.button {
 }
 
 #links {
-  padding: 0 20px;
   height: auto;
   display: flex;
   justify-content: space-around;
