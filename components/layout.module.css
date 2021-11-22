@@ -1,0 +1,42 @@
+.container {
+  max-width: 40rem;
+  padding: 0 1rem;
+  margin: 1rem auto 6rem;
+}
+
+.headerHome {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 0 2rem;
+  background: #fff;
+  padding: 1rem 0.5rem;
+  border-radius: 0.5rem;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 0 2rem;
+  background: #fff;
+  padding: 1.03rem 0.5rem 0.5rem;
+  border-radius: 0.5rem;
+}
+
+.backToHome {
+  display: flex;
+  margin: 2rem 0 0;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 0 2rem;
+  background: #fff;
+  padding: 1.03rem 0.5rem 0.5rem;
+}
