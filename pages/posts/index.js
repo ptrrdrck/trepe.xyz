@@ -22,8 +22,7 @@ export default function Posts({ allPostsData }) {
       </Head>
       <section className={utilStyles.headingMd}>
         <div className={`${utilStyles.nav} ${utilStyles.italicText}`}>
-          Paradox-mining my interests for fresh perspective and more meaningful
-          collaborations.
+          waiting...
         </div>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
