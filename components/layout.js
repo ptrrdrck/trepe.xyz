@@ -40,7 +40,7 @@ export default function Layout({ children, home }) {
           </header>
         ) : (
           <header className={styles.header}>
-            <span className={utilStyles.headingXl}>pillow</span>
+            {/*<span className={utilStyles.headingXl}>pillow</span>*/}
             <Link href="/">
               <a>
                 <Image
@@ -53,7 +53,7 @@ export default function Layout({ children, home }) {
                 />
               </a>
             </Link>
-            <span className={utilStyles.headingXl}>talk</span>
+            {/*<span className={utilStyles.headingXl}>talk</span>*/}
           </header>
         )}
       </>
