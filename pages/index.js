@@ -90,7 +90,7 @@ export default function Home({ allPostsData }) {
         </div>
       </section>
       <section className={utilStyles.linksContainer}>
-        <Link href="https://ptrrdrck.github.io/codecademy/mixed-messages/">
+        <Link href="https://daod.rip">
           <a className={utilStyles.projectLink} target="_blank">
             &rarr;dao drip
           </a>
