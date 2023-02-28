@@ -100,6 +100,7 @@
   padding: 0.5rem 0.8rem;
   border-radius: 0.5rem;
   justify-content: space-around;
+  margin-top: 1rem;
 }
 
 .postTitle {
@@ -127,10 +128,10 @@
   display: flex;
   flex-wrap: wrap;
   font-family: "Fira Code", monospace;
-  margin: 2rem 0;
+  margin: 1rem 0;
   justify-content: space-between;
   align-items: center;
-  gap: 40px;
+  gap: 18px;
 }
 
 .left,
@@ -197,11 +198,13 @@
   height: auto;
   margin: 2rem 0;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
+  gap: 1rem;
 }
 
 .projectLink {
-  flex: 1 0 150px;
+  display: flex;
+  max-width: fit-content;
   font-size: 1.1rem;
   text-decoration: none;
   color: azure;
@@ -209,8 +212,8 @@
   padding: 0.3rem;
   border-radius: 0.3rem;
   letter-spacing: 1px;
-  margin: 20px;
   text-align: center;
+  flex-wrap: nowrap;
 }
 
 .quoteContainer {
@@ -219,7 +222,7 @@
   padding: 1rem 1.2rem;
   border-radius: 0.5em;
   text-align: justify;
-  margin: 50px 0px;
+  margin: 1rem 0;
 }
 
 .quoteText {

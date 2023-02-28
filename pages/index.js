@@ -32,19 +32,6 @@ export default function Home({ allPostsData }) {
           rel="stylesheet"
         />
       </Head>
-      <section className={utilStyles.headingMd}>
-        <div className={utilStyles.nav}>
-          <Link href="/posts">
-            <a>Posts</a>
-          </Link>
-          <Link href="https://github.com/ptrrdrck">
-            <a target="_blank">Github&#8599;</a>
-          </Link>
-          <Link href="https://twitter.com/ptrrdrck">
-            <a target="_blank">Twitter&#8599;</a>
-          </Link>
-        </div>
-      </section>
       <section className={utilStyles.introContainer}>
         <div className={utilStyles.left}>
           <span>&iexcl;welcome!</span>
@@ -95,19 +82,9 @@ export default function Home({ allPostsData }) {
             &rarr;dao drip
           </a>
         </Link>
-        <Link href="https://reflect.black/">
+        <Link href="https://decentralize.center/voting">
           <a className={utilStyles.projectLink} target="_blank">
-            &rarr;realization
-          </a>
-        </Link>
-        <Link href="https://o00o.me/">
-          <a className={utilStyles.projectLink} target="_blank">
-            &rarr;o00o.me
-          </a>
-        </Link>
-        <Link href="https://decentralize.center/">
-          <a className={utilStyles.projectLink} target="_blank">
-            &rarr;decentralize.center
+            &rarr;voting model
           </a>
         </Link>
         <Link href="https://goodcompanyrecords.nyc">
@@ -115,9 +92,9 @@ export default function Home({ allPostsData }) {
             &rarr;record label
           </a>
         </Link>
-        <Link href="https://ptrrdrck.github.io/ideas.html">
+        <Link href="https://reflect.black/">
           <a className={utilStyles.projectLink} target="_blank">
-            &rarr;stasis
+            &rarr;writing
           </a>
         </Link>
       </section>
@@ -135,6 +112,19 @@ export default function Home({ allPostsData }) {
           className={utilStyles.photo}
           alt={"@ Organ Pipe Cactus National Monument"}
         />
+      </section>
+      <section className={utilStyles.headingMd}>
+        <div className={utilStyles.nav}>
+          <Link href="/posts">
+            <a>Posts</a>
+          </Link>
+          <Link href="https://github.com/ptrrdrck">
+            <a target="_blank">Github&#8599;</a>
+          </Link>
+          <Link href="https://twitter.com/ptrrdrck">
+            <a target="_blank">Twitter&#8599;</a>
+          </Link>
+        </div>
       </section>
       <style global jsx>{`
         html {
