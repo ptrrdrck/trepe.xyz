@@ -68,7 +68,7 @@ export default function Home({ allPostsData }) {
         <div className={utilStyles.right}>
           <span>
             discuss an idea{" "}
-            <Link href="mailto:pete@lftlc.xyz">
+            <Link href="https://lftlc.xyz">
               <a className={`${utilStyles.gradientText} ${utilStyles.emoji}`}>
                 &#x1F4AD;
               </a>
