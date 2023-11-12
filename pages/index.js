@@ -82,6 +82,11 @@ export default function Home({ allPostsData }) {
             &rarr;dao drip
           </a>
         </Link>
+        <Link href="https://highin.space">
+          <a className={utilStyles.projectLink} target="_blank">
+            &rarr;images
+          </a>
+        </Link>
         <Link href="https://decentralize.center/voting">
           <a className={utilStyles.projectLink} target="_blank">
             &rarr;voting model
